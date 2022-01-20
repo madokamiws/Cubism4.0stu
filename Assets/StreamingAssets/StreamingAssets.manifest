@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 3687926088
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: model.live2d
+      Dependencies: {}
