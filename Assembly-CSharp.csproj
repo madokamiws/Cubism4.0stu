@@ -195,8 +195,11 @@
     <Compile Include="Assets\Live2D\Cubism\Samples\OriginalWorkflow\Expression\CubismExpressionPreview.cs" />
     <Compile Include="Assets\Live2D\Cubism\Samples\OriginalWorkflow\Motion\CubismMotionPreview.cs" />
     <Compile Include="Assets\Live2D\Cubism\Samples\Raycasting\RaycastHitDisplay.cs" />
+    <Compile Include="Assets\Scripts\CubismHitTest.cs" />
     <Compile Include="Assets\Scripts\InitModel.cs" />
     <Compile Include="Assets\Scripts\LoadModelPrefab.cs" />
+    <Compile Include="Assets\Scripts\LookTargetTest.cs" />
+    <Compile Include="Assets\Scripts\ParametersUpdata.cs" />
     <None Include="Assets\mcs.rsp" />
     <None Include="Assets\StreamingAssets\Gantzert_Felixander\ReadMe.txt" />
     <None Include="Assets\Live2D\Cubism\Rendering\Resources\Live2D\Cubism\Shaders\Mask.shader" />
