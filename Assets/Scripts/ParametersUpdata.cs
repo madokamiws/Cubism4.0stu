@@ -24,7 +24,7 @@ public class ParametersUpdata : MonoBehaviour
         
     }
     /// <summary>
-    /// 动画修改在update之后，lateupdate之前，所以放到LU中
+    /// 动画修改在update之后，lateupdate之前，所以放到LateUpdate中
     /// </summary>
     private void LateUpdate()
     {
