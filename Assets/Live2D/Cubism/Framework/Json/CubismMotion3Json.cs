@@ -360,6 +360,7 @@ namespace Live2D.Cubism.Framework.Json
                     var animationEvent = new AnimationEvent
                     {
                         time = UserData[i].Time,
+                        functionName = "UserDateEventLister",
                         stringParameter = UserData[i].Value,
                     };
 

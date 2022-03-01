@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Editor\AssetBundle.cs" />
+    <Compile Include="Assets\Editor\Customization.cs" />
     <Compile Include="Assets\Live2D\Cubism\Editor\AssetGuid.cs" />
     <Compile Include="Assets\Live2D\Cubism\Editor\CubismAssetProcessor.cs" />
     <Compile Include="Assets\Live2D\Cubism\Editor\CubismOriginalWorkflowSettings.cs" />

@@ -1,0 +1,24 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "haruto_t01.moc3",
+		"Textures": [
+			"haruto_t01.2048/texture_00.png"
+		],
+		"Physics": "haruto_t01.physics3.json",
+		"UserData": "haruto_t01.userdata3.json",
+		"DisplayInfo": "haruto_t01.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	]
+}
