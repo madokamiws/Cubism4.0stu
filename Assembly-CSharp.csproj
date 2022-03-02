@@ -195,6 +195,7 @@
     <Compile Include="Assets\Live2D\Cubism\Samples\OriginalWorkflow\Expression\CubismExpressionPreview.cs" />
     <Compile Include="Assets\Live2D\Cubism\Samples\OriginalWorkflow\Motion\CubismMotionPreview.cs" />
     <Compile Include="Assets\Live2D\Cubism\Samples\Raycasting\RaycastHitDisplay.cs" />
+    <Compile Include="Assets\Scripts\CubismExampleController.cs" />
     <Compile Include="Assets\Scripts\CubismHitTest.cs" />
     <Compile Include="Assets\Scripts\InitModel.cs" />
     <Compile Include="Assets\Scripts\LoadModelPrefab.cs" />
