@@ -18,21 +18,26 @@ public class CubismExampleController : MonoBehaviour,ICubismUpdatable
     public bool NeedsUpdateOnEditing => false;
 
     public bool HasUpdateController { get ; set ; }
-
+    
+    /// <summary>
+    /// 控制执行数据的函数
+    /// </summary>
     public void OnLateUpdate()
     {
-        throw new System.NotImplementedException();
+        Debug.Log(ExecutionOrder.ToString() + "被调用~！");
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
+        HasUpdateController =  GetComponent<CubismUpdateController>() != null;    }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (!HasUpdateController)
+        {
+            OnLateUpdate();
+        }
     }
 }

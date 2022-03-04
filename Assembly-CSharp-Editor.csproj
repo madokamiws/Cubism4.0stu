@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Assets\Editor\AssetBundle.cs" />
     <Compile Include="Assets\Editor\Customization.cs" />
+    <Compile Include="Assets\Editor\MaterialCusomizer.cs" />
     <Compile Include="Assets\Live2D\Cubism\Editor\AssetGuid.cs" />
     <Compile Include="Assets\Live2D\Cubism\Editor\CubismAssetProcessor.cs" />
     <Compile Include="Assets\Live2D\Cubism\Editor\CubismOriginalWorkflowSettings.cs" />
@@ -290,6 +291,9 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>C:/project/Cubism4.0/Assets/Live2D/Cubism/Viewer/Plugins/System.Windows.Forms.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:/project/Cubism4.0/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
