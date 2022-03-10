@@ -209,6 +209,7 @@
     <Compile Include="Assets\Scripts\CubismExampleController.cs" />
     <Compile Include="Assets\Scripts\CubismHitTest.cs" />
     <Compile Include="Assets\Scripts\InitModel.cs" />
+    <Compile Include="Assets\Scripts\JsonTest.cs" />
     <Compile Include="Assets\Scripts\LoadModelPrefab.cs" />
     <Compile Include="Assets\Scripts\LookTargetTest.cs" />
     <Compile Include="Assets\Scripts\MotionPlayer.cs" />

@@ -1,0 +1,19 @@
+{
+	"Version": 3,
+	"Meta": {
+		"UserDataCount": 2,
+		"TotalUserDataSize": 19
+	},
+	"UserData": [
+		{
+			"Target": "ArtMesh",
+			"Id": "D_PSD_70",
+			"Value": "EyeTest"
+		},
+		{
+			"Target": "ArtMesh",
+			"Id": "D_PSD_69",
+			"Value": "UserdataTest"
+		}
+	]
+}
