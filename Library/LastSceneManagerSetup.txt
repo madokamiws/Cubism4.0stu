@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/03_Josn.unity
+- path: Assets/Scenes/09_expression.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

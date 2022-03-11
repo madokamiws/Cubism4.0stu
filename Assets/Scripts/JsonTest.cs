@@ -17,14 +17,15 @@ public class JsonTest : MonoBehaviour
         ///
 
         //-------------------------------------------------------------------------------------------
-        //string path = Application.dataPath + "/Haruto/haruto_t01.model3.json";
-        //CubismModel3Json cubismModel3Json = CubismModel3Json.LoadAtPath(path, InitModel.BuiltInLoadPath);
-        //cubismModel3Json.ToModel();
+        string path = Application.dataPath + "/Haruto/haruto_t01.model3.json";
+        CubismModel3Json cubismModel3Json = CubismModel3Json.LoadAtPath(path, InitModel.BuiltInLoadPath);
 
-        ////获取.moc文件
-        //string mocPath = cubismModel3Json.FileReferences.Moc;
-        ////获取.physics.json文件
-        //string physicsPath = cubismModel3Json.FileReferences.Physics;
+        cubismModel3Json.ToModel();
+        //CubismModel cubismModel = cubismModel3Json.ToModel();
+        //获取.moc文件
+        string mocPath = cubismModel3Json.FileReferences.Moc;
+        //获取.physics.json文件
+        string physicsPath = cubismModel3Json.FileReferences.Physics;
         //-------------------------------------------------------------------------------------------
 
 
@@ -58,13 +59,39 @@ public class JsonTest : MonoBehaviour
         ////这是.physics3.json的解析器。
         ////在.physics3.json中描述Physics设定值Unity可以转换使用。
         ////这是物理效果文件，比如做模型时候的头发随风飘动等各种物理效果
-        string json = Resources.Load<TextAsset>("Haruto/haruto_t01.physics3").text;
-        CubismPhysics3Json cubismPhysics3Json = CubismPhysics3Json.LoadFrom(json);
+
+
+        //string json = Resources.Load<TextAsset>("Haruto/haruto_t01.physics3").text;
+        //CubismPhysics3Json cubismPhysics3Json = CubismPhysics3Json.LoadFrom(json);
         //CubismPhysicsController cubismPhysicsController = cubismModel.GetComponent<CubismPhysicsController>();
         //cubismPhysicsController.Initialize(cubismPhysics3Json.ToRig());
+        //-------------------------------------------------------------------------------------------
 
 
+        ////cubismexp3json
+        ////这是.exp3.json的解析器。
+        ////.exp3.json是模型表情的文件或者配饰显示文件，如果与其他动画合用不需要
+        ////单独制作或提取表情，这个解析器以及.exp3.json则没有用处。
+        ////加载格式
+        //string json = Resources.Load<TextAsset>("xx/xx.exp3").text;
+        //CubismExp3Json exp3Json = CubismExp3Json.LoadFrom(json);
 
+        //-------------------------------------------------------------------------------------------
+        ////cubismpose3json
+        ////是.pose3.json.的解析器
+        ////用于做姿势与换装的文件,如果动画中包含此功能，则没有用处
+        ////加载格式
+        //string json = Resources.Load<TextAsset>("xx/xx.pose3").text;
+        //CubismPose3Json pose3Json = CubismPose3Json.LoadFrom(json);
+
+        //-------------------------------------------------------------------------------------------
+        //CubismDisplayInfo3Json
+        //CubismDisplayInfo3Json是.cdi3.json的解析器
+        //.cdi3.json中记述了Cubism编辑器中设定的参数、零件、参数组的名称以及与之相对的各ID
+        //在Cubism SDKfor Unity中，用于显示Inspector窗口中显示的参数和部件的名称。没有这个
+        //配置文件，Unity中的Inspector面板将不会显示对应的ID以及各个部分
+
+        //-------------------------------------------------------------------------------------------
 
     }
 

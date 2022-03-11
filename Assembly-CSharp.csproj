@@ -208,12 +208,16 @@
     <Compile Include="Assets\Live2D\Cubism\Viewer\ICubismViewerHotkey.cs" />
     <Compile Include="Assets\Scripts\CubismExampleController.cs" />
     <Compile Include="Assets\Scripts\CubismHitTest.cs" />
+    <Compile Include="Assets\Scripts\ExpressionCreator.cs" />
+    <Compile Include="Assets\Scripts\ExpressionTest.cs" />
     <Compile Include="Assets\Scripts\InitModel.cs" />
     <Compile Include="Assets\Scripts\JsonTest.cs" />
     <Compile Include="Assets\Scripts\LoadModelPrefab.cs" />
     <Compile Include="Assets\Scripts\LookTargetTest.cs" />
     <Compile Include="Assets\Scripts\MotionPlayer.cs" />
+    <Compile Include="Assets\Scripts\Mousetest.cs" />
     <Compile Include="Assets\Scripts\ParametersUpdata.cs" />
+    <Compile Include="Assets\Scripts\ParseAndSetUserdata.cs" />
     <Compile Include="Assets\Scripts\UserdataTest.cs" />
     <None Include="Assets\mcs.rsp" />
     <None Include="Assets\Gantzert_Felixander 1\ReadMe.txt" />
